@@ -4,9 +4,9 @@ export const AppConfig = registerAs('app', () => ({
   endpoints: {
     services: {
       bookcover: process.env.BOOKCOVER_SERVICE_URL!,
-      usersRead: process.env.USERS_READ_SERVICE_URL!,
-      neo4jReadRecords: process.env.NEO4J_READ_RECORDS_SERVICE_URL!,
-      neo4jReadContents: process.env.NEO4J_READ_CONTENTS_SERVICE_URL!,
+      readUsers: process.env.READ_USERS_SERVICE_URL!,
+      readContents: process.env.READ_CONTENTS_SERVICE_URL!,
+      readRecords: process.env.READ_RECORDS_SERVICE_URL!,
     },
   },
 }));

@@ -17,16 +17,16 @@ import {AppConfig} from './app.config';
               url: config.endpoints.services.bookcover,
             },
             {
-              name: 'usersRead',
-              url: config.endpoints.services.usersRead,
+              name: 'readUsers',
+              url: config.endpoints.services.readUsers,
             },
             {
-              name: 'neo4jReadContents',
-              url: config.endpoints.services.neo4jReadContents,
+              name: 'readContents',
+              url: config.endpoints.services.readContents,
             },
             {
-              name: 'neo4jReadRecords',
-              url: config.endpoints.services.neo4jReadRecords,
+              name: 'readRecords',
+              url: config.endpoints.services.readRecords,
             },
           ],
           serviceHealthCheck: true,
